@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     .dismissOnOutsideTouch(false)
                     .dismissOnInsideTouch(false)
                     .modal(true)
-                    .animated(true)
+                    .animated(false)
                     .animationDuration(2000)
                     .animationPadding(SimpleTooltipUtils.pxFromDp(50))
                     .contentView(R.layout.tooltip_custom, R.id.tv_text)
